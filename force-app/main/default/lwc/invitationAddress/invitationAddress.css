@@ -1,0 +1,44 @@
+:host{
+    /* --bg-address:#f7f7f8;
+    --h1-color:#447663;
+    --p1-color:#54927a;
+    --p2-color:#777; */
+    --bg-address:var(--dxp-g-brand-contrast);
+    --h1-color:var(--dxp-s-text-heading-extra-large-color);
+    --p1-color:var(--dxp-s-body-text-color);
+    --p2-color:var(--dxp-s-body-small-text-color);
+}
+
+.address_details{
+    background: var(--bg-address);
+    text-align: center;
+    padding: 24px;
+    min-height: 400px;
+}
+.address_details h2{
+    font-size: 40px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    color: var(--h1-color);
+}
+.address_details .google-maps{
+    max-width: 700px;
+    margin: auto;
+    height: 300px;
+
+}
+.address_details section{
+    max-width: 300px;
+    margin: auto;
+    margin-bottom: 24px;
+}
+.address_details section>.heading{
+    font-size: 20px;
+    color: var(--p1-color);
+    font-weight: 500;
+}
+.address_details p.subtext{
+    color: var(--p2-color);
+    font-size: 16px;
+}

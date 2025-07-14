@@ -1,0 +1,152 @@
+:host{
+    /* --h1-color:#447663;
+    --h4-color:#555; */
+    --h1-color:var(--dxp-s-text-heading-extra-large-color);
+    --h4-color:var(--dxp-s-text-heading-small-color);
+}
+
+/* ---------- DESKTOP & DEFAULT STYLES ---------- */
+.banner {
+    background-size: cover;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: serif;
+    text-align: center;
+    height: 100vh;
+    transform: translateY(-100px); /* Upward shift for desktop */
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    width: 200px;
+    margin-bottom: 24px;
+}
+
+.event-info {
+    text-align: center;
+}
+
+.event-info p {
+    font-weight: 500;
+    color:var(--h4-color);
+    font-size: 20px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.event-info h1 {
+    font-size: 28px;
+    font-weight: 500;
+    color:var(--h1-color);
+}
+
+.event-info h1 > em {
+    font-size: 56px;
+    font-family: cursive;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    letter-spacing: 6px;
+}
+
+.event-info h4 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 16px;
+    color:var(--h4-color);
+}
+
+.countdown {
+    display: flex;
+    justify-content: space-between;
+    min-width: 420px;
+}
+
+.countdown .counter {
+    border: 2px solid #ddd;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 24px;
+    line-height: 56px;
+    font-weight: 400;
+}
+
+
+/* ---------- MOBILE STYLES (≤ 480px) ---------- */
+@media only screen and (max-width: 480px) {
+  .main-details {
+    transform: none !important;
+    padding-top: 0px;
+    height: auto;
+  }
+
+  .event-info {
+    padding: 8px;
+  }
+
+  .event-info p {
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 6px;
+  }
+
+  .event-info h1 {
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .event-info h1 > em {
+    font-size: 32px;
+    letter-spacing: 3px;
+    line-height: 1.2;
+  }
+
+  .event-info h4 {
+    font-size: 16px;
+    margin: 6px 0 12px 0;
+  }
+
+  .countdown {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+    min-width: auto;
+  }
+
+  .countdown .counter {
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+    line-height: 45px;
+  }
+
+  .social {
+    margin-bottom: 12px;
+  }
+}
+
+
+/* ---------- TABLET STYLES (481px–768px) ---------- */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .main-details {
+    transform: translateY(-60px); /* Slight upward shift */
+    padding-top: 40px;            /* Add a little top space */
+    height: auto;
+  }
+}

@@ -1,0 +1,43 @@
+:host{
+    /* --bg-main:#fff;
+    --h1-color:#447663;
+    --h3-color:#54927a;
+    --p1-color:#54927a;
+    --p2-color:#777; */
+    --bg-main:var(--dxp-g-root);
+    --h1-color:var(--dxp-s-text-heading-extra-large-color);
+    --h3-color:var(--dxp-s-text-heading-medium-color);
+    --p1-color:var(--dxp-s-body-text-color);
+    --p2-color:var(--dxp-s-body-small-text-color);
+}
+.program_details{
+    text-align: center;
+    padding: 32px 16px;
+    background: var(--bg-main);
+}
+.program_details h2{
+    font-size: 40px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    color: var(--h1-color);
+}
+.program_details h3{
+    font-size: 24px;
+    color: var(--h3-color);
+}
+.program_details .date-time{
+    font-size: 20px;
+    color: var(--p1-color);
+    font-weight: 500;
+}
+.program_details p.subtext{
+    color: var(--p2-color);
+    font-size: 16px;
+}
+.program_details lightning-layout{
+    padding: 16px 0px;
+}
+.program_details lightning-layout:not(:last-child){
+    border-bottom: 4px dotted #cdcdcd;
+}

@@ -1,0 +1,54 @@
+:host{
+    /* --bg-main:#fff;
+    --h1-color:#447663;
+    --h2-color:#555555;
+    --button-bg-color:#54927a; */
+    --bg-main:var(--dxp-g-root);
+    --h1-color:var(--dxp-s-text-heading-extra-large-color);
+    --h2-color:var(--dxp-s-text-heading-large-color);
+    --button-bg-color:var(--dxp-s-button-color);
+}
+.rsvp_details{
+    padding: 24px;
+    background: var(--bg-main);
+}
+
+.rsvp_details form{
+    max-width: 700px;
+    margin: auto;
+    padding: 24px;
+}
+.rsvp_details  h2{
+    font-size: 40px;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    color: var(--h1-color);
+    text-align: center;
+}
+.rsvp_details .subheading{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 4px;
+    color: var(--h2-color);
+    text-transform: uppercase;
+    margin-bottom: 8px;
+    opacity: 0.8;
+
+}
+.rsvp_details button{
+    background: var(--button-bg-color);
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+
+}
+.footer{
+    text-align: center;
+    margin-top: 24px;
+}
+.rsvpMessage{
+    text-align: center;
+    font-size: 24px;
+    color: var(--h2-color);
+}
