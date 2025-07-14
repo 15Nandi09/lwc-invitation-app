@@ -1,49 +1,39 @@
-# Build an Invitation App with Salesforce
+# 🎉 Invitation App Built with Salesforce
 
-Welcome to **"Build an Invitation App with Salesforce"** — an immersive course project designed to empower you with the skills needed to create dynamic and efficient web experiences using Salesforce's cutting-edge technologies.
+This is a dynamic web application I developed as part of a Salesforce development course. The app showcases my hands-on experience with **Experience Cloud**, **Lightning Web Components (LWC)**, **Apex**, and other modern Salesforce technologies.
 
-Whether you are a beginner or an experienced developer, this project provides a comprehensive journey through **Experience Cloud**, **Lightning Web Components (LWC)**, **Apex programming**, and more.
+The application allows users to create, manage, and RSVP to events through a responsive and user-friendly interface.
 
----
+## 🔗 Live Demo
 
-## 🔗 Live Site
+👉 [Visit the Live Invitation App](https://projectdeveloper-dev-ed.develop.my.site.com/invitationapp/)
 
-👉 [Click to visit the Invitation App](https://projectdeveloper-dev-ed.develop.my.site.com/invitationapp/)
-
-> ⚠️ If the site doesn't open, check your network or device's DNS resolution, as public Salesforce sites may face access issues on some devices.
+> ⚠️ If the site doesn't open, it may be due to DNS restrictions or device-related issues. Salesforce public sites can sometimes face access limitations.
 
 ---
 
-## 📚 Course Modules Covered
+## 📚 Key Features & Technologies Used
 
-- **Experience Cloud Site with Lightning Web Runtime (LWR):**  
-  Build and deploy dynamic website experiences using LWR on Experience Cloud. Discover how to create engaging, external-facing portals with Salesforce tools.
+### 🔨 Technologies
+- **Salesforce Experience Cloud (LWR)**
+- **Lightning Web Components (LWC)**
+- **Apex Programming**
+- **SOQL & DML Operations**
+- **Custom Objects & Fields**
+- **Static Resources (Images, JS Libraries)**
+- **localStorage**
+- **SLDS & Custom CSS for Styling**
 
-- **Salesforce Data Modeling:**  
-  Learn to design efficient data structures in Salesforce and explore best practices for scalable data retrieval and storage.
+### 🚀 Features I Implemented
 
-- **Lightning Web Components (LWC):**  
-  Build modular and reusable UI components with LWC. Learn data binding, event handling, and scalable front-end architecture.
-
-- **Apex Programming Language:**  
-  Use Apex to implement server-side logic for operations like record creation, validation, and data manipulation.
-
-- **Records Fetching and Creation:**  
-  Master SOQL and DML for effective record operations in Salesforce.
-
-- **Forms and Date Handling:**  
-  Create user-friendly forms with intuitive date fields and data validation.
-
-- **Theme, Styling, and Responsiveness:**  
-  Build a visually polished and responsive interface using custom CSS, themes, and layout components.
-
-- **localStorage:**  
-  Use browser storage APIs (like `localStorage`) in combination with Salesforce security best practices.
-
-- **Static Resources and Beyond:**  
-  Enhance your app with static resources like images, JS libraries, and more advanced features.
-
----
+- ✅ Built a responsive **Experience Cloud site** using **Lightning Web Runtime (LWR)**
+- ✅ Created **custom data models** for Invitees, Events, and RSVPs
+- ✅ Developed **LWC-based forms** with validations and field-level input handling
+- ✅ Wrote **Apex logic** for data manipulation, form processing, and validation
+- ✅ Used **SOQL/DML** for CRUD operations
+- ✅ Integrated **static resources** and **external libraries**
+- ✅ Leveraged **localStorage** to enhance UX while maintaining data privacy
+- ✅ Styled the app using **custom CSS** and **SLDS**
 
 ## ⚙️ Technologies Used
 
